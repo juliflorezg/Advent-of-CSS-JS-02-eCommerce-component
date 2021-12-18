@@ -37,7 +37,7 @@ const updateSummary = () => {
 
 	$cartSummaryEl.innerHTML = `
     <span class="cart__summary-subtotal">subtotal:</span>
-    <p class="cart__summary-subtotal-amount">$${subtotal}</p>
+    <p class="cart__summary-subtotal-amount">$${subtotal.toFixed(2)}</p>
     <span class="cart__summary-tax">tax:</span>
     <p class="cart__summary-tax-amount">$${totalTax.toFixed(2)}</p>
     <span class="cart__summary-total">total:</span>
