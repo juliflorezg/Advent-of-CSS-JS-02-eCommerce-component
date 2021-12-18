@@ -22,6 +22,10 @@ body {
 	justify-content: center;
 	align-items: center; */
 	min-height: 100vh;
+	background-image: url(./images/bg__left.svg), url(./images/bg__top-right.svg),
+		url(./images/bg__btm-right.svg);
+	background-repeat: no-repeat;
+	background-position: 0% 60%, 100% 0%, 100% 100%;
 }
 
 main {
