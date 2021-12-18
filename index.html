@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>eCommerce Component</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<main>
+			<section class="menu">
+				<h2 class="menu__title">to go menu</h2>
+
+				<article class="menu__product menu__product--french-fries">
+					<img
+						src="./images/plate__french-fries.png"
+						alt="French Fries with Ketchup"
+						class="menu__product-image"
+					/>
+					<div class="menu__product-info">
+						<p class="menu__product-name">French Fries with Ketchup</p>
+						<span class="menu__product-price">$2.23</span>
+						<button class="menu__add-button">Add to Cart</button>
+						<!-- <button class="menu__add-button"><i class="fas fa-check"></i> In Cart</button> -->
+					</div>
+				</article>
+
+				<article class="menu__product menu__product--salmon">
+					<img
+						src="./images/plate__salmon-vegetables.png"
+						alt="Salmon and Vegetables"
+						class="menu__product-image"
+					/>
+					<div class="menu__product-info">
+						<p class="menu__product-name">Salmon and Vegetables</p>
+						<span class="menu__product-price">$5.12</span>
+						<button class="menu__add-button">Add to Cart</button>
+					</div>
+				</article>
+
+				<article class="menu__product menu__product--spaghetti">
+					<img
+						src="./images/plate__spaghetti-meat-sauce.png"
+						alt="Spaghetti with Sauce"
+						class="menu__product-image"
+					/>
+					<div class="menu__product-info">
+						<p class="menu__product-name">Spaghetti with Sauce</p>
+						<span class="menu__product-price">$7.82</span>
+						<button class="menu__add-button">Add to Cart</button>
+					</div>
+				</article>
+
+				<article class="menu__product menu__product--french-fries">
+					<img
+						src="./images/plate__french-fries.png"
+						alt="French Fries with Ketchup"
+						class="menu__product-image"
+					/>
+					<div class="menu__product-info">
+						<p class="menu__product-name">French Fries with Ketchup</p>
+						<span class="menu__product-price">$2.23</span>
+						<button class="menu__add-button">Add to Cart</button>
+					</div>
+				</article>
+			</section>
+
+			<section class="cart">
+				<h2 class="cart__title">your cart</h2>
+
+				<!-- <p>Your cart is empty.</p> -->
+				<div id="cart-container">
+					<!-- <article class="cart__product">
+						<img
+							src="./images/plate__french-fries.png"
+							alt=""
+							class="cart__product-image"
+						/>
+						<span class="cart__product-quantity">2</span>
+						<div class="cart__product-summary">
+							<p class="cart__product-name">French Fries with Ketchup</p>
+							<span class="cart__product-unit-price">$2.23</span>
+							<div class="cart__product-controls">
+								<i class="fas fa-chevron-circle-left"></i>
+								<span>2</span>
+								<i class="fas fa-chevron-circle-right"></i>
+							</div>
+							<span class="cart__product-total-price">$4.46</span>
+						</div>
+					</article>
+					<article class="cart__product">
+						<img
+							src="./images/plate__spaghetti-meat-sauce.png"
+							alt=""
+							class="cart__product-image"
+						/>
+						<span class="cart__product-quantity">2</span>
+						<div class="cart__product-summary">
+							<p class="cart__product-name">Spaghetti with sauce</p>
+							<span class="cart__product-unit-price">$7.82</span>
+							<div class="cart__product-controls">
+								<i class="fas fa-chevron-circle-left"></i>
+								<span>2</span>
+								<i class="fas fa-chevron-circle-right"></i>
+							</div>
+							<span class="cart__product-total-price">$15.64</span>
+						</div>
+					</article> -->
+				</div>
+
+				<article class="cart__summary">
+					<!-- <span class="cart__summary-subtotal">subtotal:</span>
+					<p class="cart__summary-subtotal-amount">$20.10</p>
+					<span class="cart__summary-tax">tax:</span>
+					<p class="cart__summary-tax-amount">$1.96</p>
+					<span class="cart__summary-total">total:</span>
+					<p class="cart__summary-total-amount">$30.12</p> -->
+				</article>
+			</section>
+		</main>
+
+		<script
+			src="https://kit.fontawesome.com/dc4e40d56e.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="./main.js"></script>
+	</body>
+</html>
